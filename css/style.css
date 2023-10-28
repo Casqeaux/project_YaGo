@@ -270,7 +270,6 @@ html {
     display: flex;
 }
 
-
 .section-exclusive__slider-first-row,
 .section-exclusive__slider-second-row {
     position: relative;
@@ -280,13 +279,12 @@ html {
 
 .section-exclusive__slider-img {
     padding-bottom: 5px;
-
 }
 
-.section-exclusive__slider-icon-1{
+.section-exclusive__slider-icon-1 {
     position: absolute;
-    top: -113px;
-    right: 235px;
+    top: -115px;
+    right: 228px;
 }
 
 .section-exclusive__slider-icon-2 {
@@ -297,17 +295,60 @@ html {
 
 .section-exclusive__slider-icon-3 {
     position: absolute;
-    bottom: -45px;
-    left: 170px;
+    bottom: -55px;
+    left: 175px;
 }
 
 .section-exclusive__slider-first-row {
-    margin: 42px 13px 0 -12px;
+    margin: 40px 10px 0 -12px;
 }
 
 .section-exclusive__slider-second-row {
     margin-top: -170px;
+    
 }
 
+.section-abonement__container {
+    padding: 93px 0px 0 124px;
+}
 
+.section-abonement__wrapper {
+    display: flex;
+}
 
+.section-abonement__heading {
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 90%;
+    letter-spacing: -1px;
+    margin: 0 0 36px 0;
+}
+
+.section-abonement__content {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+
+}
+
+.section-abonement__wrap-left {
+    width: 420px;
+    margin-right: 151px;
+}
+
+.section-abonement__wrap-right {
+    background-image: url(/img/first_gradient.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom 61px left 40px;
+    width: 742px;
+    position: relative;
+    margin: -16px 0 0 0;
+
+}
+
+.section-abonement__ico {
+    position: absolute;
+    top: 70px;
+    left: -100px;
+}
